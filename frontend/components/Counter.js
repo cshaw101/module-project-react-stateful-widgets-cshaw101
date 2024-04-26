@@ -49,15 +49,19 @@ import React from 'react'; /* STEP 0 */
 
 export default function Counter() {
   /* STEP 1 */
+  let [count, setCount] = useState(0)
 
   const increment = () => {
     /* STEP 4 */
+   
   };
   const decrement = () => {
     /* STEP 5 */
+
   };
   const reset = () => {
     /* STEP 6 */
+ 
   };
 
   const style = {
